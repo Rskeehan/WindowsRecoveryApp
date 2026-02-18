@@ -29,12 +29,21 @@ An easy-to-use Windows application that automates the process of scanning for OS
 
 ## Installation
 
-### Option 1: Download Release (Recommended)
+### Option 1: Download from GitHub Actions (Testing/Latest Build)
+1. Go to the [Actions tab](https://github.com/Rskeehan/WindowsRecoveryApp/actions)
+2. Click on the latest successful "Build and Test" workflow run
+3. Download the `WindowsRecoveryApp-[commit-hash]` artifact
+4. Extract the ZIP file
+5. Right-click `WindowsRecoveryApp.exe` and select "Run as administrator"
+
+**See [DOWNLOAD_AND_TEST.md](DOWNLOAD_AND_TEST.md) for detailed instructions on downloading and testing builds.**
+
+### Option 2: Download Release (Recommended)
 1. Download the latest release from the [Releases](https://github.com/Rskeehan/WindowsRecoveryApp/releases) page
 2. Extract the ZIP file
 3. Right-click `WindowsRecoveryApp.exe` and select "Run as administrator"
 
-### Option 2: Build from Source
+### Option 3: Build from Source
 1. Install [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) or later
 2. Clone this repository:
    ```bash
