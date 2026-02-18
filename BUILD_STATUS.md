@@ -1,5 +1,18 @@
 # Build Status and Testing Instructions
 
+## ✅ LATEST UPDATE: Workflow Fixed!
+
+**The deprecated actions/upload-artifact@v3 issue has been resolved!**
+
+All GitHub Actions have been upgraded to v4:
+- ✅ `actions/checkout@v4`
+- ✅ `actions/setup-dotnet@v4`
+- ✅ `actions/upload-artifact@v4`
+
+The workflow will no longer fail with the deprecation error. New builds are ready to run!
+
+---
+
 ## Current Status
 
 ✅ **Workflow Configuration Complete!**
