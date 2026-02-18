@@ -167,14 +167,14 @@ namespace WindowsRecoveryApp
                     {
                         try
                         {
-                            process.Kill();
+                            process.Kill(true);
                             process.WaitForExit();
                         }
                         catch { }
                     }
                     
                     // Wait a moment
-                    System.Threading.Thread.Sleep(1000);
+                    Task.Delay(1000).Wait();
                     
                     // Start explorer again
                     Process.Start("explorer.exe");

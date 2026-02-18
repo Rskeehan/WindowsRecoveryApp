@@ -24,7 +24,7 @@ An easy-to-use Windows application that automates the process of scanning for OS
 ## Requirements
 
 - Windows 10 or Windows 11
-- .NET 6.0 Runtime (usually pre-installed on Windows 11)
+- .NET 8.0 Runtime (usually pre-installed on Windows 11)
 - Administrator privileges (the app will request elevation)
 
 ## Installation
@@ -35,7 +35,7 @@ An easy-to-use Windows application that automates the process of scanning for OS
 3. Right-click `WindowsRecoveryApp.exe` and select "Run as administrator"
 
 ### Option 2: Build from Source
-1. Install [.NET 6.0 SDK](https://dotnet.microsoft.com/download/dotnet/6.0) or later
+1. Install [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) or later
 2. Clone this repository:
    ```bash
    git clone https://github.com/Rskeehan/WindowsRecoveryApp.git
@@ -47,7 +47,7 @@ An easy-to-use Windows application that automates the process of scanning for OS
    ```
 4. Run the application:
    ```bash
-   cd WindowsRecoveryApp\bin\Release\net6.0-windows
+   cd WindowsRecoveryApp\bin\Release\net8.0-windows
    WindowsRecoveryApp.exe
    ```
 
